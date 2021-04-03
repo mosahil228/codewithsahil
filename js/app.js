@@ -6,11 +6,19 @@ $(document).ready(function() {
         prevArrow: ".prev-btn",
         nextArrow: ".next-btn",
         responsive: [{
-            breakpoint: 1110,
-            settings: {
-                slidesToShow: 2,
+                breakpoint: 1110,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                }
             }
-        }]
+        ]
+
 
 
     });
@@ -18,8 +26,8 @@ $(document).ready(function() {
 var typed = new Typed('.type', {
 
     strings: ['Welcome to Code with Sahil.', 'We Provide You the best web designs', 'Learn css styles.', 'Web designs and more...', 'Thank You So Much For Visiting Our Website.'],
-    typeSpeed: 50,
-    backSpeed: 30,
+    typeSpeed: 20,
+    backSpeed: 5,
     loop: true,
 });
 burger = document.querySelector('.burger')
