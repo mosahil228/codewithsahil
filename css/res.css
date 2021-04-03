@@ -15,7 +15,89 @@
                                                                 }
                                                             }
                                                             
-                                                            @media(max-width:950px) {
+                                                            @media(max-width:350px) {
+                                                                .imglogo img {
+                                                                    width: 5rem;
+                                                                }
+                                                            }
+                                                            
+                                                            @media(max-width:300px) {
+                                                                .navbar input[type=text] {
+                                                                    width: 13rem;
+                                                                }
+                                                            }
+                                                            
+                                                            @media(max-width:375px) {
+                                                                .btn-main {
+                                                                    display: flex;
+                                                                    flex-direction: column;
+                                                                }
+                                                                .btn-bg4 {
+                                                                    margin-top: 0.6rem;
+                                                                    font-size: 1.2rem;
+                                                                    width: 18rem;
+                                                                }
+                                                                .container {
+                                                                    height: 55rem;
+                                                                }
+                                                                .imglogo {
+                                                                    margin-right: 0.3rem!important;
+                                                                }
+                                                            }
+                                                            
+                                                            @media(max-width:500px) {
+                                                                .text p {
+                                                                    padding-left: 1rem;
+                                                                    text-align: center;
+                                                                    padding-right: 1rem;
+                                                                }
+                                                                .text strong {
+                                                                    padding-left: 1rem;
+                                                                    padding-right: 1rem;
+                                                                    text-align: center;
+                                                                }
+                                                            }
+                                                            
+                                                            @media(max-width:450px) {
+                                                                .btn-bg9 {
+                                                                    width: 12rem;
+                                                                }
+                                                                .top-footer .container-2 {
+                                                                    padding: 0px 3rem;
+                                                                }
+                                                            }
+                                                            
+                                                            @media(max-width:475px) {
+                                                                .top-footer .container-2 {
+                                                                    flex-direction: column;
+                                                                }
+                                                                .btn-bg9 {
+                                                                    margin-top: -2rem;
+                                                                }
+                                                                .box h3 {
+                                                                    font-size: 2rem!important;
+                                                                    padding-bottom: 0rem;
+                                                                    padding-top: 2rem;
+                                                                }
+                                                                .top-footer .box ul li {
+                                                                    padding-bottom: 0rem!important;
+                                                                    padding-top: 1rem!important;
+                                                                }
+                                                                .top-footer .box ul .oneI {
+                                                                    width: 4.5rem;
+                                                                    height: 4.5rem;
+                                                                }
+                                                                .foot-icons {
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                }
+                                                                .foot-icons img {
+                                                                    margin-right: 1rem;
+                                                                }
+                                                            }
+                                                            
+                                                            @media(max-width:888px) {
                                                                 .our-services .card-wrapper {
                                                                     flex-direction: column;
                                                                 }
@@ -63,20 +145,23 @@
                                                                     padding: 0px 8rem;
                                                                 }
                                                                 .imglogo {
-                                                                    margin-right: 4rem;
+                                                                    margin-right: 1.3rem;
                                                                 }
                                                             }
                                                             
                                                             @media(max-width:864px) {
                                                                 .navbar a {
-                                                                    padding: 1.6rem 0.9rem;
+                                                                    padding: .6rem 0.9rem;
                                                                 }
                                                                 .top-products .slider-btn {
                                                                     display: none!important;
                                                                 }
+                                                                .navbar img {
+                                                                    margin-top: 1rem;
+                                                                }
                                                                 .navbar {
-                                                                    transition: all 0.7s ease-out;
-                                                                    height: 45rem;
+                                                                    transition: all 0.5s ease;
+                                                                    height: 37rem;
                                                                 }
                                                                 .p-font {
                                                                     font-size: .8rem;
@@ -97,6 +182,10 @@
                                                                 }
                                                                 .burger {
                                                                     display: block;
+                                                                }
+                                                                .burger:hover,
+                                                                .burger:focus {
+                                                                    border: .02rem solid rgb(83, 34, 34);
                                                                 }
                                                                 .h-nav {
                                                                     height: 7.2rem;
