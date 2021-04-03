@@ -15,7 +15,7 @@
                                                                 }
                                                             }
                                                             
-                                                            @media(max-width:888px) {
+                                                            @media(max-width:950px) {
                                                                 .our-services .card-wrapper {
                                                                     flex-direction: column;
                                                                 }
