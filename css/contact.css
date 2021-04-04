@@ -360,19 +360,19 @@
                                 }
                             }
                             
-                            @media(max-height:1080px) {
+                            @media(max-width:700px) {
+                                .container-1 {
+                                    height: auto!important;
+                                }
+                            }
+                            
+                            @media(max-height:1100px) {
                                 .container-1 {
                                     height: 55vh!important;
                                 }
                             }
                             
                             @media(max-height:900px) {
-                                .container-1 {
-                                    height: auto!important;
-                                }
-                            }
-                            
-                            @media(max-width:700px) {
                                 .container-1 {
                                     height: auto!important;
                                 }
