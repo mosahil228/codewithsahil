@@ -130,7 +130,7 @@
                                 
                                 .container-1 {
                                     background: linear-gradient(-45deg, #bbdbbe, #deebdd, #f6f0ea, #f1dfd1);
-                                    height: 100vh;
+                                    height:auto;
                                     background-size: 400% 400%;
                                     animation: change 5s ease-in-out infinite;
                                 }
@@ -354,17 +354,9 @@
                                     }
                                 }
                                 
-                                @media(max-width:1000px) {
-                                    .container-1 {
-                                        height: 80vh;
-                                    }
-                                }
+                               
                                 
-                                @media(max-width:1000px) {
-                                    .container-1 {
-                                        height: 100vh!important;
-                                    }
-                                }
+                                
                                 
                                 @media(max-width:600px) {
                                     .container-5 {
