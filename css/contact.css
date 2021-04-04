@@ -130,7 +130,7 @@
                                 
                                 .container-1 {
                                     background: linear-gradient(-45deg, #bbdbbe, #deebdd, #f6f0ea, #f1dfd1);
-                                    height:auto;
+                                    height: auto;
                                     background-size: 400% 400%;
                                     animation: change 5s ease-in-out infinite;
                                 }
@@ -332,6 +332,12 @@
                                     .container-5 form {
                                         padding: 1rem 0 0 0;
                                     }
+                                    .container-1 {
+                                        height: auto!important;
+                                    }
+                                    .container-5 {
+                                        margin: 0 auto!important;
+                                    }
                                     .container-5 form .form-row {
                                         display: block;
                                     }
@@ -354,9 +360,19 @@
                                     }
                                 }
                                 
-                               
-                                
-                                
+                                @media(max-width:1000px) {
+                                    .container-1 {
+                                        height: 70vh!important;
+                                    }
+                                    .container-5 {
+                                        margin: 13rem auto!important;
+                                    }
+                                }
+                                /* @media(max-width:768px) {
+                                    .container-1 {
+                                        height: auto!important;
+                                    }
+                                } */
                                 
                                 @media(max-width:600px) {
                                     .container-5 {
