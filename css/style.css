@@ -6,9 +6,16 @@
                     
                     html {
                         font-size: 62.5%;
+                        scroll-behavior: smooth;
                     }
                     
                     .container-2 {
+                        width: 100%;
+                        padding: 0 18rem;
+                        margin: 0 auto;
+                    }
+                    
+                    .container-5 {
                         width: 100%;
                         padding: 0 18rem;
                         margin: 0 auto;
@@ -733,7 +740,7 @@
                         animation: change 3s ease-in-out infinite;
                         font-size: 1.5rem;
                         outline: none;
-                        transition: all .5s ease;
+                        transition: all .8s ease;
                         color: #fff;
                         width: 16rem;
                         border-radius: .4rem;
@@ -775,4 +782,23 @@
                         height: .2rem;
                         margin: .6rem .3rem;
                         opacity: 0.6;
+                    }
+                    /* arrow;;;; */
+                    
+                    .goToTop {
+                        position: fixed;
+                        width: 5rem;
+                        height: 5rem;
+                        background: linear-gradient(-45deg, #0a0a0a, #17171d, #000000, #17171d);
+                        background-size: 400% 400%;
+                        animation: change 1s ease-in-out infinite;
+                        bottom: 4rem;
+                        border-radius: 2rem;
+                        right: 1rem;
+                        text-decoration: none;
+                        text-align: center;
+                        line-height: 5rem;
+                        color: #ff6569;
+                        font-size: 2.2rem;
+                        z-index: 10;
                     }
