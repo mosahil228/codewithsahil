@@ -775,10 +775,10 @@
                         .burger {
                             position: absolute;
                             right: 4%;
-                            top: 1.5rem;
+                            top: 1.1rem;
                             display: none;
                             border: .02rem solid grey;
-                            padding: .3rem;
+                            padding: 1rem;
                             outline: none;
                             opacity: 0.5;
                             border-radius: 1rem;
