@@ -360,6 +360,12 @@
             grid-template-columns: repeat(1, 1fr);
         }
     }
+    @media(max-width:880px) {
+        .back-img {
+            height: 70vh;
+        }
+    }
+
     
     @media(max-width:320px) {
         .top-content label {
